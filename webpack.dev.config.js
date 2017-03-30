@@ -13,8 +13,12 @@ module.exports = {
     /*path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
     publicPath: '/public/'*/
-	path: '/',
-    filename: 'public/bundle.js'
+	/*path: '/',
+    filename: 'public/bundle.js'*/
+	
+	path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
   },
 
   plugins: [
