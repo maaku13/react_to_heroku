@@ -14,7 +14,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/public/'*/
 	path: '/',
-    filename: 'bundle.js'
+    filename: 'public/bundle.js'
   },
 
   plugins: [
